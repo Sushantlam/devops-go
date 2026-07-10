@@ -4,5 +4,5 @@ replicaCount: 3
 
 image:
   repository: sushantlama/go-web-app
-  tag: 29128534536
+  tag: 29128595015
   pullPolicy: IfNotPresent
