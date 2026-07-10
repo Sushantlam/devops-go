@@ -1,6 +1,6 @@
 
 
-replicaCount: 1
+replicaCount: 3
 
 image:
   repository: sushantlama/go-web-app
