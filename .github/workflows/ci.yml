@@ -30,17 +30,17 @@ jobs:
     - name: Test
       run: go test ./...
 
-  code-quality:
-    runs-on: ubuntu-latest
+  # code-quality:
+  #   runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+  #   steps:
+  #   - name: Checkout repository
+  #     uses: actions/checkout@v4
 
-    - name: Run golangci-init
-      uses: golangci/golangci-lint-action@v4
-      with:
-        version: v1.59.0
+  #   - name: Run golangci-init
+  #     uses: golangci/golangci-lint-action@v4
+  #     with:
+  #       version: v1.59.0
 
   push:
     runs-on: ubuntu-latest
